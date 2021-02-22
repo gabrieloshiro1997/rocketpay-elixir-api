@@ -6,6 +6,8 @@ defmodule RocketpayWeb.Router do
   end
 
   scope "/api", RocketpayWeb do
+
+    get "/", WelcomeController, :index
     pipe_through :api
   end
 
