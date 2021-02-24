@@ -34,7 +34,4 @@ defmodule Rocketpay.User do
     end
 
     defp put_password_hash(changeset), do: changeset
-
-    end
-
 end
